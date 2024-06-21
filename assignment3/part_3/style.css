@@ -1,0 +1,64 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+  }
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+  
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
+  @font-face {
+    font-family: "capsuularegular";
+    src: url("fonts/cagliostro-capsuula-generated/capsuula-webfont.woff2")
+        format("woff2"),
+      url("fonts/cagliostro-capsuula-generated/capsuula-webfont.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: "cagliostroregular";
+    src: url("fonts/cagliostro-capsuula-generated/cagliostro-regular-webfont.woff2")
+        format("woff2"),
+      url("fonts/cagliostro-capsuula-generated/cagliostro-regular-webfont.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
