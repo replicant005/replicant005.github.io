@@ -46,8 +46,8 @@ header, footer {
 /* WRITE YOUR CODE BELOW HERE */
 
 @font-face {
-  font-family: 'libre baskerville';
-  src: url('libre-baskerville/librebaskerville-regular.ttf') format('truetype');
+  font-family: 'abel';
+  src: url('abel/abel-regular.ttf') format('truetype');
 }
 
 
@@ -63,7 +63,7 @@ html {
 }
 
 h1, h2 {
-  font-family: libre baskerville;
+  font-family: abel-regular;
   letter-spacing: 2px;
 }
 
@@ -150,7 +150,7 @@ nav li a {
 
 nav li a:focus, nav li a:hover {
   color: white;
-  background: #a66;
+  background: #a66; 
 }
 
 nav li a:active {
