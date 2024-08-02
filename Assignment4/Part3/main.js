@@ -2,7 +2,7 @@
       Name: Mehak Kapur
       Date: 01/08/2024
       File: main.js
-      Description: assignment4 Part3 - Bouncing Balls 
+      Description: assignment4 Part3 - Object Building Practice 
 */
 const canvas = document.querySelector("canvas");
 const ctx = canvas.getContext("2d");
