@@ -1,3 +1,10 @@
+/*
+name -  mehak kapur
+date - 8/8/2024
+file - main.js
+description - assignment5 javascript 
+ */
+
 // functionality for showing/hiding the comments section
 
 const showHideBtn = document.querySelector('.show-hide');
@@ -5,7 +12,7 @@ const commentWrapper = document.querySelector('.comment-wrapper');
 
 commentWrapper.style.display = 'none';
 
-showHideBtn.onclick = function() {
+function toggleComments() {
   let showHideText = showHideBtn.textContent;
   if(showHideText === 'Show comments') {
     showHideBtn.textContent = 'Hide comments';
@@ -15,6 +22,14 @@ showHideBtn.onclick = function() {
     commentWrapper.style.display = 'none';
   }
 };
+
+showHideBtn.onclick = toggleComments;
+
+showHideBtn.onkeydown = function(e) {
+  if (e.key ==='Enter'){
+    toggleComments();
+  }
+}
 
 // functionality for adding a new comment via the comments form
 
